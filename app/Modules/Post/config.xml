@@ -1,0 +1,6 @@
+<config>
+    <module>Post</module>
+    <description>Post module</description>
+    <version>0.1</version>
+    <active>true</active>
+</config>

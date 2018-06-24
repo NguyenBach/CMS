@@ -159,6 +159,7 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        App\Providers\ModuleServiceProvider::class,
 
     ],
 
@@ -210,5 +211,6 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
 
     ],
+    'module_dir' => env('APP_DIR').'/app/Modules'
 
 ];
