@@ -1,0 +1,6 @@
+<config>
+    <module>Admin</module>
+    <description>Admin module</description>
+    <version>0.1</version>
+    <active>true</active>
+</config>
