@@ -42,6 +42,12 @@ class ModuleServiceProvider extends ServiceProvider
             if (is_dir($module_dir.'/' . $module->module . '/Migrations')) {
                 $this->loadMigrationsFrom($module_dir.'/' . $module->module . '/Migrations');
             }
+            //dịnh register luôn middleware luôn ở đây nhưng chưa biết làm
+//            if(is_dir($module_dir.'/' . $module->module . '/Middlewares')){
+//                spl_autoload_register(function($class){
+//                    $this->app['router']->aliasMiddleware($class, $class);
+//                });
+//            }
         }
     }
 
