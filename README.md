@@ -2,12 +2,13 @@
 
 <h3>Cách xây dựng Module</h3>
 Mỗi module có một file config.xml để config 
-Gồm 4 trường 
+Gồm 4 trường
+<ul> 
 <li> name: tên module viết hoa chữ đầu tiên. Cái này quan trọng vì nó dùng chính tên này để là view namespace </li>
 <li> description : mô tả  </li>
 <li> version: số hiệu phiên bản </li>
-<li> active: enable/disable để tắt mở module nếu để disable thì ko nạp </li>
-
+<li> active: true/false để tắt mở module nếu để false thì ko nạp </li>
+</ul>
 <br/>
 
 Trong module có các thư mục như 
